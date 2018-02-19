@@ -1,0 +1,25 @@
+<html>
+    <head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></head>
+    <body>
+        <ul>
+            <li>Dog</li>
+            <li>Elephant</li>
+            <li>Cat</li>
+            <li>Mouse</li>
+        </ul>
+    
+    <script>
+        $('li').hover(
+            function(){
+            $(this).css('color','red');
+            $(this).css('font-size', '120%');
+        },
+        
+        function(){
+           $(this).css('color','black');
+            $(this).css('font-size', '100%');
+        });
+    </script>
+        
+    </body>
+</html>
