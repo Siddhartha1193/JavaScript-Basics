@@ -9,7 +9,7 @@
  * 				 week, or -1 if the numAnimals or avgFood are less than 0 or non-numeric
  */
 function calculateFoodOrder(numAnimals, avgFood) {
-    // IMPLEMENT THIS FUNCTION!    
+    // IMPLEMENT THIS FUNCTION!
     if(numAnimals < 0 || avgFood < 0 || isNaN(numAnimals) || isNaN(avgFood))
         {
             return -1;
@@ -31,8 +31,7 @@ function calculateFoodOrder(numAnimals, avgFood) {
  */
 function mostPopularDays(week) {
     // IMPLEMENT THIS FUNCTION!
-
-    var resArr = [];
+        var resArr = [];
     if(typeof week === 'undefined' || week === null || week.length === 0)
         {
             return null;
@@ -60,6 +59,8 @@ function mostPopularDays(week) {
                 {
                     return resArr;
                 }
+        }
+
 }
 
 
@@ -76,7 +77,7 @@ function mostPopularDays(week) {
  */
 function createAnimalObjects(names, types, breeds) {
     // IMPLEMENT THIS FUNCTION!
-    this.names = names;
+     this.names = names;
     this.types = types;
     this.breeds = breeds;
     var animal= [];
@@ -94,7 +95,7 @@ function createAnimalObjects(names, types, breeds) {
     else {
         return animal;
     }
-    
+
 }
 
 /////////////////////////////////////////////////////////////////
@@ -136,6 +137,6 @@ function Animal (name, type, breed) {
  * from your browser's console.
  */
 function helloworld() {
-    return 'hello javaScript!';
+    return 'hello javaScript';
 }
 
